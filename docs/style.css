@@ -1,0 +1,38 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 223, 227);
+}
+
+.game-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.game{
+    margin: 1em;
+
+    box-shadow: 0 0 5px lightblue;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-property: box-shadow;
+
+    background-color: lightblue;
+    padding: 50px;
+    border-radius: 1em;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.game:hover{
+    box-shadow: 0 0 50px lightblue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
